@@ -1,0 +1,51 @@
+GET http://localhost:8080/api/v1/products HTTP/1.1
+Content-Type: application/json
+
+###
+
+POST http://localhost:8080/api/v1/products HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": "1",
+  "name": "Armarioo",
+  "category": "Moveis",
+  "price": 3000.00
+}
+
+###
+
+POST http://localhost:8080/api/v1/products HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": "2",
+  "name": "Cafeteira",
+  "category": "Eletroportateis",
+  "price": 200.00
+}
+###
+
+POST http://localhost:8080/api/v1/products HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": "3",
+  "name": "Geladeira",
+  "category": "Eletrodomestico",
+  "price": 200.00
+}
+
+###
+
+PUT http://localhost:8080/api/v1/products HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": "3",
+  "name": "Fogao",
+  "category": "Eletrodomestico",
+  "price": 200.00
+}
+
+###
